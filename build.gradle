@@ -1,0 +1,13 @@
+apply plugin: 'groovy'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}
+
+// Wrapper - Consistent and no configuration for running gradle
+task wrapper(type: Wrapper) {
+    gradleVersion = '1.6'
+}
